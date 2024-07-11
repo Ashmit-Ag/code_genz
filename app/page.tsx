@@ -1,8 +1,11 @@
 
-const page = () => {
-  return (
-    <div></div>
-  )
+import Hero from "@/components/hero";
+import Image from "next/image";
+
+export default function Home() {
+  return <>
+  <Hero/>
+  </>;
 }
 
 export default page
