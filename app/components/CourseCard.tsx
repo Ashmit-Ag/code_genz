@@ -1,8 +1,6 @@
-// app/components/CourseCard.tsx
-"use client";
+
 import Link from 'next/link';
 
-import React, { useState } from 'react';
 interface Course {
   id: number;
   title: string;
@@ -19,17 +17,7 @@ interface CourseCardProps {
 }
 
 const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const handleOpenModal = () => {
-    setIsModalOpen(true);
-  };
-
-
-  const handleCloseModal = () => {
-    
-    setIsModalOpen(false);
-  };
+ 
 
   return (
     <>

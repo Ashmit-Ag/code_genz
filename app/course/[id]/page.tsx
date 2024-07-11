@@ -1,8 +1,8 @@
-// app/course/[id]/page.tsx
 
 import React from 'react';
 import { courses } from '../../data/courses';
 import styles from './courseDetail.module.css';
+import Image from 'next/image';
 
 
 const CourseDetail = ({id}:{id:number}) => {
@@ -13,9 +13,8 @@ const course = courses[id];
     
       <div className={styles.container}>
         <h1>{course.title}</h1>
-        {/* <img src={`/images/${course.image}`} alt={course.title} className={styles.image} /> */}
+        <Image src={`images/${course.image}`} alt={course.title} />
         <p>{course.description}</p>
-        <p>{course. longDescription}</p> {/* Additional course details if any */}
         <div>
           <button className={styles.button}>Back to Courses</button>
         </div>
