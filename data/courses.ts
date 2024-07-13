@@ -1,12 +1,5 @@
 // data/courses.ts
-interface Course {
-  id: number;
-  title: string;
-  description: string;
-  longDescription: string;
-  duration: string;
-  image: string;
-}
+import Course  from '../interface/Course';
 
 export const courses: Course[] = [
   {
@@ -41,4 +34,13 @@ export const courses: Course[] = [
     duration: '8 weeks',
     image: '/images/webdev.avif',
   },
+  {
+    id: 5,
+    title: 'Data Science with Python',
+    description: 'Master data analysis and visualization using Python.',
+    longDescription: `This comprehensive 8-week course is tailored for individuals who wish to pursue a career in data science. Leveraging the power of Python, you will learn how to analyze and visualize data effectively. The course covers essential libraries such as NumPy, Pandas, Matplotlib, and Seaborn. You will learn how to manipulate data, perform statistical analysis, and create insightful visualizations. Additionally, the course introduces machine learning concepts and techniques using libraries like Scikit-learn. Real-world projects and datasets are used throughout the course to provide practical experience. By the end of the course, you will have a strong understanding of data science principles, be able to derive meaningful insights from data, and be prepared to tackle complex data science challenges in a professional setting.`,
+    duration: '8 weeks',
+    image: '/images/webdev.avif',
+  },
+
 ];

@@ -2,13 +2,12 @@
 import React from "react";
 import { courses } from "../../data/courses";
 import CourseCard from "@/components/CourseCard";
-import styles from "./page.module.css";
 
 const Courses: React.FC = () => {
   return (
-    <div className={styles.container}>
-      <h1>Our Courses</h1>
-      <div className={styles.grid}>
+    <div className="mx-auto p-10 md:w-4/5 w-full">
+      <h2 className="text-5xl font-bold text-center mb-10 mt-16">Our Courses</h2>
+      <div className="flex flex-wrap justify-center items-center gap-14">
         {courses.map((course) => (
           <CourseCard key={course.id} course={course} />
         ))}
@@ -18,3 +17,4 @@ const Courses: React.FC = () => {
 };
 
 export default Courses;
+
