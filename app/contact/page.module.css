@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f7fa;
+  color: #333333;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 140px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.infoSection {
+  flex: 1;
+  min-width: 300px;
+  background-color: #0000;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.formSection {
+  flex: 2;
+  min-width: 300px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 28px;
+  color: #333333;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.paragraph {
+  margin: 10px 0;
+  color: #555555;
+  line-height: 1.6;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333333;
+  font-weight: 500;
+}
+
+.input, .textarea {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  /* transition: border-color 0.3s ease, box-shadow 0.3s ease; */
+  background-color: #000000;
+}
+/* 
+.input:focus, .textarea:focus {
+  border-color: #80d1ff;
+  box-shadow: 0 0 8px rgba(0, 128, 255, 0.3);
+  outline: none;
+} */
+
+.textarea {
+  height: 120px;
+}
+
+.submitButton {
+  display: block;
+  width: 100%;
+  padding: 14px 0;
+  background-color: #4a90e2;
+  /* color: white; */
+  /* border: none; */
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #357ab8;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .column {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
