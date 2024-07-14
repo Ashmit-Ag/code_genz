@@ -25,7 +25,7 @@ const Navbar = () => {
       <ul
         className={`navbar_shadow_left transition-all duration-300 md:flex md:relative absolute bg-white p-5 md:p-0 right-0 h-[calc(100vh-65px)] md:h-full top-16 md:top-0 md:items-center md:space-x-6 md:translate-x-0 ${
           isOpen ? "translate-x-0" : "translate-x-full"
-        }`}
+        }`} onClick={toggleMenu}
       >
         <li className="mt-2 md:mt-0 transition-all hover:bg-gray-200 md:py-2 md:px-2 px-8 py-3 rounded-md">
           <Link href="/">Home</Link>

@@ -29,12 +29,12 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
           </p>
           <div className="flex xsm:flex-row flex-col items-center xsm:justify-between mb-0 gap-5">
             <Link href={`/course/${course.id}`} passHref>
-              <span className="bg-white text-black py-2 px-4  rounded border-black border-2 hover:bg-black hover:text-white transition duration-300">
+              <span className="bg-white text-black py-2 px-4  rounded border-black border-2 hover:bg-black hover:text-white transition duration-200">
                 Learn More
               </span>
             </Link>
             <Link href={`/course/${course.id}/enroll`} passHref>
-              <span className="bg-black text-white py-2 px-7  rounded border-black border-2 hover:bg-gray-800 transition duration-300">
+              <span className="bg-black text-white py-2 px-7  rounded border-black border-2 hover:bg-gray-800 transition duration-250">
                 Enroll
               </span>
             </Link>
