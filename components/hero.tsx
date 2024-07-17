@@ -12,7 +12,10 @@ const Hero = () => {
         <div>
             <Image src={favicon} alt="Image" className="hidden md:block" width={450} height={450}/>
         </div>
+        
     </section>
+    
+    
   )
 }
 
