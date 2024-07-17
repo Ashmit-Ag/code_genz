@@ -31,10 +31,10 @@ const Navbar = () => {
           <Link href="/">Home</Link>
         </li>
         <li className="mt-2 md:mt-0 transition-all hover:bg-gray-200 md:py-2 md:px-2 px-8 py-3 rounded-md">
-          <Link href="/course">Courses</Link>
+          <Link href="/about">About</Link>
         </li>
         <li className="mt-2 md:mt-0 transition-all hover:bg-gray-200 md:py-2 md:px-2 px-8 py-3 rounded-md">
-          <Link href="/about">About</Link>
+          <Link href="/course">Courses</Link>
         </li>
         <li className="mt-2 md:mt-0 transition-all hover:bg-gray-200 md:py-2 md:px-2 px-8 py-3 rounded-md">
           <Link href="/internship">Internship</Link>
