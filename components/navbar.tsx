@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white  w-full fixed z-10 text-slate-900 p-4 flex justify-between items-center shadow-lg">
+    <nav className="bg-white  w-full fixed z-20 text-slate-900 p-4 flex justify-between items-center shadow-lg">
       <div className="text-2xl">
         <Link href="/">Online Learning</Link>
       </div>
