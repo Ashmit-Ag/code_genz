@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,9 +12,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white  w-full fixed z-20 text-slate-900 p-4 flex justify-between items-center shadow-lg">
-      <div className="text-2xl">
-        <Link href="/">Online Learning</Link>
+    <nav className="bg-white  h-[70px] w-full fixed z-20 text-slate-900 p-4 flex justify-between items-center shadow-lg">
+      <div className=" pl-10">
+        <Link href="/">
+        <Image src="/images/samuari.png" alt="hfhf" width={40} height={0}/>
+        </Link>
       </div>
       <div className="md:hidden" onClick={toggleMenu}>
         {!isOpen ? (
