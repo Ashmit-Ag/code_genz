@@ -14,7 +14,7 @@ const CourseDetail = ({ params }:{params: {id:number}}) => {
         <h1>{course.title}</h1>
         {/* <Image src={`images/${course.image}`} alt={course.title} /> */}
         <p>{course.longDescription}</p>
-        <div>
+        <div className="mt-8">
           <Link href={`/course/${course.id}/enroll`} passHref>
               <span className="bg-green-500 text-white py-2 px-7  rounded hover:bg-green-600 transition duration-300">
                 Enroll
