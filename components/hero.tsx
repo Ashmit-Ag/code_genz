@@ -19,7 +19,7 @@ const Hero = () => {
           </button>
         </Link>
         </div>
-        <div className="mt-10 md:mt-0">
+        <div className="mt-10 md:mt-0 mt-">
           <Image src="/images/firsrting.png" alt="Favicon" className="hidden md:block" width={650} height={700} />
         </div>
       </div>
@@ -27,7 +27,8 @@ const Hero = () => {
         <Image src="/images/laptop.png" alt="Curved Design" width={200} height={300} />
       </div> */}
       {/* Why Join Section */}
-      <div className="mt-20 w-[80vw]  bg-gradient-to-r  from-purple-500 via-pink-600 to-red-500 p-20 rounded-lg text-center text-white shadow-lg z-0">
+      {/* bg-gradient-to-r from-purple-600 via-pink-600 to-red-500 */}
+      <div className="mt-20 w-[80vw]  bg-gradient-to-r from-purple-600 via-pink-600 to-red-500  p-20 rounded-lg text-center text-white shadow-lg z-0">
         <h2 className="text-3xl font-bold mb-6">Why Join the Course?</h2>
         <p className="mb-6">
           Our course offers a unique blend of hands-on experience and theoretical knowledge. You'll gain the skills needed to excel in the tech industry.
