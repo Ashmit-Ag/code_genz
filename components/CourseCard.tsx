@@ -10,7 +10,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
   return (
     <div className="bg-white self-start shadow-lg rounded-lg overflow-hidden w-[400px] min-h-[350px] text-left">
       <Image
-        src={course.image}
+        src={course.image[0]}
         alt={course.title}
         className="w-full h-48 object-cover"
         width={300}
