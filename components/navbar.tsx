@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,9 +12,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white  w-full fixed text-slate-900 p-4 flex justify-between items-center shadow-lg">
-      <div className="text-2xl">
-        <Link href="/">Online Learning</Link>
+    <nav className="bg-white  h-[70px] w-full fixed z-20 text-slate-900 p-4 flex justify-between items-center shadow-lg">
+      <div className=" pl-10">
+        <Link href="/">
+        <Image src="/images/samuari.png" alt="hfhf" width={40} height={0}/>
+        </Link>
       </div>
       <div className="md:hidden" onClick={toggleMenu}>
         {!isOpen ? (
@@ -31,10 +34,10 @@ const Navbar = () => {
           <Link href="/">Home</Link>
         </li>
         <li className="mt-2 md:mt-0 transition-all hover:bg-gray-200 md:py-2 md:px-2 px-8 py-3 rounded-md">
-          <Link href="/course">Courses</Link>
+          <Link href="/about">About</Link>
         </li>
         <li className="mt-2 md:mt-0 transition-all hover:bg-gray-200 md:py-2 md:px-2 px-8 py-3 rounded-md">
-          <Link href="/about">About</Link>
+          <Link href="/course">Courses</Link>
         </li>
         <li className="mt-2 md:mt-0 transition-all hover:bg-gray-200 md:py-2 md:px-2 px-8 py-3 rounded-md">
           <Link href="/internship">Internship</Link>
