@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './page.module.css';
 import ContactInfo from '@/components/ContactInfo';
 import ContactForm from '@/components/ContactForm';
 
