@@ -4,5 +4,5 @@ export default interface Course {
   description: string;
   longDescription: string;
   duration: string;
-  image: string;
+  image: Array<string>;
 }
