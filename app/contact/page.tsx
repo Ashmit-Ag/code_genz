@@ -1,13 +1,12 @@
 import React from 'react';
-import styles from './page.module.css';
-import ContactForm from '../../components/ContactForm';
-import ContactInfo from '../../components/ContactInfo';
+import ContactInfo from '@/components/ContactInfo';
+import ContactForm from '@/components/ContactForm';
 
 const Contact: React.FC = () => {
   return (
-    <div className={styles.container}>
-      <ContactInfo />
+    <div className='flex flex-wrap flex-row lg:flex-row-reverse gap-5 p-5 sm:10 pt-20'>
       <ContactForm />
+      <ContactInfo />
     </div>
   );
 };
