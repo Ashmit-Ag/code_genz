@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactForm = () => {
   return (
-    <div className="max-w-4xl min-w-[200px] w-full mx-auto lg:w-1/2 py-12 p-6 bg-white shadow-[0_10px_20px_rgba(0,_0,_0,_0.1)] rounded-lg">
+    <div className="w-[90vw] lg:w-1/2 mx-auto p-6 bg-white shadow-md rounded-lg">
       <h2 className="text-2xl font-semibold mb-6">Contact Us</h2>
       <form>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -29,11 +29,10 @@ const ContactForm = () => {
           <label htmlFor="message" className="block text-gray-700">Message</label>
           <textarea id="message" name="message" className="mt-1 block w-full p-2 border border-gray-300 rounded-md h-32"></textarea>
         </div>
-        <button type="submit" className="mt-6 bg-white text-black border-black border-[1px] hover:bg-black hover:text-white py-2 px-4 rounded-md transition duration-200">Submit</button>
+        <button type="submit" className="mt-6 bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">Submit</button>
       </form>
     </div>
   );
 };
 
 export default ContactForm;
-
