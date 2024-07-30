@@ -25,7 +25,7 @@ const Hero = () => {
           <Image src="/images/firsrting.png" alt="Favicon" className="hidden md:block" width={650} height={700} />
         </div>
       </div>
-      {/* <div className="container">
+      <div className="container">
     <div className="bubble">
         <span></span>
         <span></span>
@@ -61,7 +61,7 @@ const Hero = () => {
         <span></span>
         <span></span>
     </div>
-</div> */}
+</div>
 
       {/* <div className="absolute mt-96 left-0 w-full overflow-hidden z-10 md: none">
         <Image src="/images/laptop.png" alt="Curved Design" width={200} height={300} />
