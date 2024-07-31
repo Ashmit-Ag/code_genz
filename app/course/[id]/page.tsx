@@ -18,10 +18,17 @@ const CourseDetail = ({ params }:{params: {id:number}}) => {
         width={300}
         height={200}
       />
-        <h1 className="text-3xl p-8">{course.title}</h1>
+      <div className="p-10 gap-6 flex flex-col">
+      <h1 className="text-4xl">{course.title}</h1>
+       <p className="text-lg ">{course.longDescription[0]}</p>
+       <p className="text-lg ">{course.longDescription[1]}</p>
+       <h2 className="text-2xl">Who Should Enroll?</h2>
+       <p className="text-lg ">{course.longDescription[2]}</p>
+       <p className="text-lg ">{course.longDescription[3]}</p>
        
-        <p className="text-xl ">{course.longDescription}</p>
-        <div className="mt-8">
+      </div>
+       
+        <div className="p-4">
           <Link href={`/course/${course.id}/enroll`} passHref>
               <span className="bg-green-500 text-white py-2 px-7  rounded hover:bg-green-600 transition duration-300">
                 Enroll

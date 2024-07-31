@@ -33,7 +33,7 @@ const end = () => {
             </div>
           </div>
 
-          <div className="bg-white text-black p-6 rounded-lg shadow-lg  flex gap-5 w-[80%] sm:w-96  h-32  hover:scale-110 ease-in-out duration-700 ">
+          <div className="bg-white text-black p-6 rounded-lg shadow-lg  flex gap-5 w-[80%] sm:w-96 lg:w-65 h-32  hover:scale-110 ease-in-out duration-700 ">
             <div className=" flex justify-center items-center mb-4 ">
               <Image
                 src="/images/interface.png"

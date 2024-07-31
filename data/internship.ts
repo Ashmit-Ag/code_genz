@@ -1,0 +1,1 @@
+import Course  from '../interface/Course';
