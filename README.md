@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Coding Samuri
 
-## Getting Started
+Coding Samuri is a platform dedicated to providing students with free and paid internships as well as training opportunities in the field of programming and development. Whether you're looking to gain real-world experience or expand your skills through structured learning, Coding Samuri has something for everyone.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Coding Samuri is built to help aspiring developers kickstart their careers by offering:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Free and Paid Internships**: Connect with real companies offering internship opportunities in various tech fields.
+- **Training Programs**: Enroll in well-structured training programs that cover various topics, from web development to AI.
+- **Career Growth**: Gain practical experience and enhance your portfolio through internships and project-based learning.
 
-## Learn More
+### Purpose
 
-To learn more about Next.js, take a look at the following resources:
+This project aims to bridge the gap between students and the professional world by providing them with the tools and opportunities needed to succeed. Coding Samuri is tailored for students who want to gain both experience and knowledge in the tech industry.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Internship Listings**: Browse a wide variety of internships, both paid and unpaid.
+- **Training Programs**: Access to training in programming languages, frameworks, and other software development skills.
+- **User Dashboard**: A personalized dashboard for tracking applications, progress in training, and more.
+- **Mobile-First Design**: Optimized for a seamless experience across devices.
+- **Secure Authentication**: Uses JWT and other security mechanisms to protect user data.
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project is built using the following technologies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Next.js**: For server-side rendering and static site generation.
+- **TypeScript**: For type-safe JavaScript development.
+- **Tailwind CSS**: For styling the application with utility-first CSS.
+- **PostCSS**: For transforming CSS with JavaScript plugins.
+- **ESLint**: For code linting and ensuring coding standards.
+- **API Integration**: With REST/GraphQL (add specifics if applicable).
+
+## Installation
+
+To get a local copy of the project up and running, follow these steps:
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/coding-samuri.git
