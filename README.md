@@ -61,3 +61,11 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/your-username/coding-samuri.git
+### Usage
+Once you have the project up and running, you can:
+-Browse internships and training opportunities.
+-Sign up or log in as a student or recruiter.
+-Apply for internships or enroll in training programs.
+
+
+
