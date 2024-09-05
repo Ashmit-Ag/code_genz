@@ -92,7 +92,7 @@ This project is licensed under the MIT License. You can view the full license in
 
 For any inquiries, feedback, or support, feel free to contact us:
 
-- **Email**: your-email@example.com
+- **Email**: arjunagarwal023@gmail.com
 - **GitHub**: [sahhoArjun097]((https://github.com/sahhoArjun097))
 
 
