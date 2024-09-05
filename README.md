@@ -61,11 +61,44 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/your-username/coding-samuri.git
-### Usage
+
+
+   
+## Usage
+
 Once you have the project up and running, you can:
--Browse internships and training opportunities.
--Sign up or log in as a student or recruiter.
--Apply for internships or enroll in training programs.
+
+- Browse internships and training opportunities.
+- Sign up or log in as a student or recruiter.
+- Apply for internships or enroll in training programs.
+## Contributing
+
+Contributions are welcome! To contribute to this project, follow these steps:
+
+1. **Fork the repository**:
+
+   - Click the `Fork` button at the top of the repository page.
+
+2. **Clone your fork**:
+
+   Clone your forked repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/coding-samuri.git
+## License
+
+This project is licensed under the MIT License. You can view the full license in the [LICENSE](./LICENSE) file included in this repository.
+## Contact
+
+For any inquiries, feedback, or support, feel free to contact us:
+
+- **Email**: your-email@example.com
+- **GitHub**: [sahhoArjun097]((https://github.com/sahhoArjun097))
+
+
+Feel free to open an issue if you encounter any problems or have suggestions for improvements.
+
+
 
 
 
